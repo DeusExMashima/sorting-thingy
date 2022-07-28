@@ -1,0 +1,22 @@
+.visualizer-display {
+    align-items: flex-end;
+    display: flex;
+    background-color: black;
+    padding: 0 24px;
+}
+
+.array-bar {
+    background-color: aquamarine;
+    border: 0.5px solid slategray;
+}
+
+.array-bar-highlighted {
+    background-color: red;
+}
+
+.array-group {
+    align-items: flex-end;
+    justify-content: column;
+    display: flex;
+    margin: 0 auto;
+}
