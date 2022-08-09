@@ -8,7 +8,7 @@ interface DisplayArrayBarProps {
     barWidth: number;
     heightMultiplier: number;
     itemNumber: number;
-    index1: number | null;
-    index2: number | null;
+    index1?: number | undefined;
+    index2?: number | undefined;
     heightMultiplier: number;
 }

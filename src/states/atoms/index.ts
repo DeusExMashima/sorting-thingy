@@ -1,5 +1,10 @@
 export { default as arrayState } from './arrayState';
 export { default as arraySizeState } from './arraySizeState';
+export { default as currentSequenceState } from './currentSequenceState';
+export { default as hasStartedState } from './hasStartedState';
 export { default as heightState } from './heightState';
-export { default as swapState } from './swapState';
+export { default as runState } from './runState';
+export { default as sortStatusState } from './sortStatusState';
+export { default as sortTypeState } from './sortTypeState';
+export { default as speedState } from './speedState';
 export { default as widthState } from './widthState';

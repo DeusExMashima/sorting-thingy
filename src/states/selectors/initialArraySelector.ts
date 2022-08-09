@@ -2,18 +2,15 @@ import { selector } from 'recoil';
 import getInitArray from '../../utils/getInitArray';
 import { arraySizeState } from '../atoms';
 
-const arraySelector = selector({
-    key: 'arraySelector',
+const initialArraySelector = selector({
+    key: 'initialArraySelector',
     get: ({ get }) => {
         const arraySize = get(arraySizeState);
         
-        const arrayResult = getInitArray(arraySize);
+        const initialArray = getInitArray(arraySize);
 
-        return {
-            arraySize,
-            arrayResult
-        }
+        return initialArray;
     }
 })
 
-export default arraySelector;
+export default initialArraySelector;

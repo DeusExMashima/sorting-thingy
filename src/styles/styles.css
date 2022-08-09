@@ -1,3 +1,11 @@
+.visualizer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 0 24px;
+}
+
 .visualizer-display {
     align-items: flex-end;
     display: flex;

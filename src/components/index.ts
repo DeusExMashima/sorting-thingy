@@ -1,4 +1,4 @@
-export { default as ArrayBar } from './ArrayBar';
-export { default as Display } from './Display';
+export { default as ArrayBar } from './DisplayArrayBar/ArrayBar';
+export { default as Display } from './Display/Display';
 export { default as DisplayArrayBar } from './DisplayArrayBar';
 export { default as Visualizer } from './Visualizer';

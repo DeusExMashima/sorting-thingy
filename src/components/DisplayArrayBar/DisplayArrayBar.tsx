@@ -1,4 +1,4 @@
-import ArrayBar from "./ArrayBar";
+import ArrayBar from './ArrayBar';
 
 const DisplayArrayBar: React.FC<DisplayArrayBarProps> = (props: DisplayArrayBarProps): React.ReactElement => {
     const { barWidth, heightMultiplier, index1, index2, itemNumber } = props;

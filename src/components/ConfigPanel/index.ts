@@ -1,2 +1,3 @@
-export { default as ArraySizeInput } from './ArraySizeInput';
-export { default as ConfigPanel } from './ConfigPanel';
+import ConfigPanel from "./ConfigPanel";
+
+export default ConfigPanel;
